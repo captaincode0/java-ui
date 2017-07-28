@@ -1,0 +1,1 @@
+--Fri Jul 28 14:59:25 CDT 2017--com.spartan.controller.UserAuthController.logIn(UserAuthController.java:22)com.spartan.LoginView.makePrompt(LoginView.java:33)com.spartan.LoginView.main(LoginView.java:57)

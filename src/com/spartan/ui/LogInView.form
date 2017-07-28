@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.spartan.ui.LogInView">
+  <grid id="27dc6" binding="viewPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="518" height="105"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <font name="Ubuntu" size="12" style="0"/>
+      <toolTipText value="Login Example"/>
+    </properties>
+    <border type="none" title="Login Example" title-justification="2" title-position="2">
+      <font name="Ubuntu" size="16" style="1"/>
+      <title-color color="-1"/>
+    </border>
+    <children>
+      <component id="34716" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <font name="Ubuntu" size="14" style="0"/>
+          <foreground color="-1"/>
+          <text value="User"/>
+          <verticalTextPosition value="1"/>
+        </properties>
+      </component>
+      <component id="d329e" class="javax.swing.JTextField" binding="txtUserName">
+        <constraints/>
+        <properties>
+          <background color="-1"/>
+          <columns value="10"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="70b8e" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="f223c" class="javax.swing.JTextField" binding="txtPassword">
+        <constraints/>
+        <properties>
+          <background color="-1049345"/>
+          <columns value="10"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="61502" class="javax.swing.JButton" binding="btnLogin">
+        <constraints/>
+        <properties>
+          <background color="-12508662"/>
+          <foreground color="-1"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
